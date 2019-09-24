@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HomeWork2._1._1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numofspaces;
+            Console.WriteLine("Enter your string:");
+            string str = Console.ReadLine();
+            numofspaces = str.Split(' ').Length;
+            Console.WriteLine("Number of spaces in your string: " + (numofspaces - 1));
+        }
+    }
+}
